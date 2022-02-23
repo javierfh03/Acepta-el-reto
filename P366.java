@@ -40,8 +40,6 @@ public class P366 {
         ac = lista.keySet().toArray();
         
         for (int i = ac.length - 1; i > -1; i--) {
-            /* Esto es muy guarro, prodía hacer una Collections.sort, pero eso 
-            hace que el código sea más rápido.*/
             ac1 = lista.get(ac[i]).toArray();
             Arrays.sort(ac1);
             for (int j = 0; j < ac1.length; j++) {
