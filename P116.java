@@ -1,5 +1,3 @@
-package com.programame;
-
 import java.util.Scanner;
 
 public class P116 {

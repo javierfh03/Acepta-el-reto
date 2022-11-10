@@ -1,7 +1,3 @@
-package com.programame;
-
-import java.util.Scanner;
-
 public class P117 {
     public static final Scanner sc = new Scanner(System.in);
     

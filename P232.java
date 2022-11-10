@@ -1,5 +1,3 @@
-package com.programame;
-
 import java.util.StringTokenizer;
 
 public class P232 {

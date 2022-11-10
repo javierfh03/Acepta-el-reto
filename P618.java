@@ -1,5 +1,3 @@
-package com.programame;
-
 public class P618 {
     static java.util.Scanner entrada;
 
