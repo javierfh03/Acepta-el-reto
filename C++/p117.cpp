@@ -6,17 +6,12 @@ using namespace std;
 
 int main(){
     int cantSaludos;
-    int busqueda;
+    string saludo;
 
     cin >> cantSaludos;
 
-    string saludos[cantSaludos];
-
     for (int i = 0; i < cantSaludos; i++) {
-        cin >> saludos[i]  >> saludos[i];
-    }
-
-    for (string saludo : saludos) {
+        cin >> saludo  >> saludo;
         cout << "Hola, " << saludo << "." << endl;
     }
 
