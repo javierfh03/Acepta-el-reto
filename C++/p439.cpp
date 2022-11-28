@@ -27,11 +27,11 @@ void caso_de_prueba(){
 }
 
 int main(){
-    string cantidad;
+    int cantidad;
 
-    getline(cin, cantidad);
+    cin >> cantidad;
 
-    for (int i = 0; i < stoi(cantidad); i++) {
+    for (int i = 0; i < cantidad; i++) {
         caso_de_prueba();
     }
 
