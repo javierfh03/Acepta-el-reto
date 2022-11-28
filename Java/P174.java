@@ -12,7 +12,7 @@ public class P174{
     }
 
     private static void casoDePrueba(){
-	boolean aux = true;
+	    boolean aux = true;
         int anio = entrada.nextInt(), con = 0, inicial;
         String anioString;
         char n;
