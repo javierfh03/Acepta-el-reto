@@ -4,11 +4,11 @@
 using namespace std;
 
 bool caso_de_prueba(){
-    string cantidad;
+    int cantidad;
 
-    getline(cin, cantidad);
+    cin >> cantidad;
 
-    if (stoi(cantidad) == 0){
+    if (cantidad == 0){
         return false;
     }
 
@@ -16,8 +16,6 @@ bool caso_de_prueba(){
 }
 
 int main(){
-    
-
     while(caso_de_prueba()){
     }
 
